@@ -7,7 +7,7 @@ nav-menu: true
 # **Code Review**
 
 <div class="embed-container">
-    <iframe width="640" height="390" 
+    <iframe width="560" height="315" 
     src="https://www.youtube.com/embed/dOLGxgjsSzo?si=wJKQkHjXxYXjwMOl" 
     frameborder="0" allowfullscreen></iframe>
 </div>

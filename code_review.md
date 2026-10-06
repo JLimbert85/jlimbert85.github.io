@@ -13,6 +13,7 @@ nav-menu: true
 .embed-container {
   position: relative;
   height: 0;
+  padding-bottom: 56.25%; 
   overflow: hidden;
   max-width: 50%;
 }

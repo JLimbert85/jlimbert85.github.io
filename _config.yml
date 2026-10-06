@@ -10,7 +10,7 @@ street_address:
 city: Fitchburg
 state: MA
 zip_code: 01420
-country: United States of America
+country:
 phone:
 
 # homepage tiles

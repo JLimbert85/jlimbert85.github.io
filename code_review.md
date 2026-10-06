@@ -13,13 +13,4 @@ nav-menu: true
 .embed-container {
   margin: auto;
 }
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 </style>

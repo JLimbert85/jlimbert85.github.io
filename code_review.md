@@ -11,11 +11,7 @@ nav-menu: true
 </div>
 <style>
 .embed-container {
-  position: relative;
-  height: 0;
-  padding-bottom: 56.25%; 
-  overflow: hidden;
-  max-width: 50%;
+  margin: auto;
 }
 .embed-container iframe,
 .embed-container object,

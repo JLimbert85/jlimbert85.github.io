@@ -2,9 +2,8 @@
 layout: page
 title: Elements
 image: assets/images/pic01.jpg
-nav-menu: false
+nav-menu: true
 ---
-
 <!-- Main -->
 <div id="main" class="alt">
 

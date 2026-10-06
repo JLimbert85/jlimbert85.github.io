@@ -23,7 +23,7 @@ nav-menu: true
   position: absolute;
   top: 0;
   left: 0;
-  width: 560;
-  height: 315;
+  width: 50%;
+  height: 50%;
 }
 </style>

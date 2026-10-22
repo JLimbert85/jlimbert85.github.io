@@ -1,0 +1,42 @@
+---
+import { site } from "@data/site";
+
+const description = site.codeReview.description;
+const link = site.codeReview.videoLink;
+---
+
+<section
+    id="code-review"
+    class="mb-24 scroll-mt-24 lg:mb-32 lg:scroll-mt-8"
+    aria-labelledby="code-review-heading"
+>
+    <h2 id="code-review-heading" class="section-heading">Code Review</h2>
+    <div class="reveal-content mt-8 grid items-start gap-10">
+        <div class="space-y-8 body-copy">
+            <p>{description}</p>
+            <iframe
+                width="560"
+                height="315"
+                src={link}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<style is:global>
+    .reveal-content {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: revealIn 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+
+    @keyframes revealIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>

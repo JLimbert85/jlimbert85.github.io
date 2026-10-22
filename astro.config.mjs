@@ -1,18 +1,19 @@
-import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
-import icon from 'astro-icon';
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
+import icon from "astro-icon";
 
 export default defineConfig({
-  output: 'static',
-  vite: {
-    plugins: [tailwindcss()],
-  },
+    site: "https://jlimbert85.github.io",
+    output: "static",
+    vite: {
+        plugins: [tailwindcss()],
+    },
 
-  integrations: [
-    icon({
-      include: {
-        ph: ['*'],
-      },
-    }),
-  ],
+    integrations: [
+        icon({
+            include: {
+                ph: ["*"],
+            },
+        }),
+    ],
 });

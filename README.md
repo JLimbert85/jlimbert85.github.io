@@ -18,7 +18,7 @@ Below is the link to my code review video. In this recording, I walk through the
 
 https://www.youtube.com/watch?v=dOLGxgjsSzo
 
-# Artifact Enhancment
+# Artifact Enhancement
 
 Original Artifact: https://github.com/JLimbert85/MobileArchitectAndProgramming  
 Enhanced Artifact: https://github.com/JLimbert85/weight-tracker

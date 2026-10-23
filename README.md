@@ -2,7 +2,7 @@
 
 This is my ePortfolio used to showcase my journey through my Computer Science degree. My ePortfolio can be viewed at the link below.
 
-https://www.jlimbert85.github.io
+https://jlimbert85.github.io
 
 # Professional Self-Assessment
 

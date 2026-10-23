@@ -1,0 +1,35 @@
+---
+import { Content as Narrative } from "@data/artifactNarrative.md";
+---
+
+<section
+    id="artifact-enhancements"
+    class="mb-24 scroll-mt-24 lg:mb-32 lg:scroll-mt-8"
+    aria-labelledby="artifact-enhancements-heading"
+>
+    <h2 id="artifact-enhancements-heading" class="section-heading">
+        Artifact Enhancements
+    </h2>
+    <div class="reveal-content mt-8 grid items-start gap-10">
+        <div class="space-y-8 body-copy">
+            <article class="prose dark:prose-invert max-w-none">
+                <Narrative />
+            </article>
+        </div>
+    </div>
+</section>
+
+<style is:global>
+    .reveal-content {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: revealIn 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+
+    @keyframes revealIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>

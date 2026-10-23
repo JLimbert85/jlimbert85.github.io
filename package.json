@@ -1,5 +1,5 @@
 {
-    "name": "projects-portfolio-template",
+    "name": "eportfolio",
     "version": "0.1.0",
     "type": "module",
     "engines": {
@@ -16,13 +16,11 @@
     },
     "keywords": [
         "portfolio",
-        "astro",
-        "frontend",
-        "web-design"
+        "astro"
     ],
-    "author": "Masoud Soleymani",
+    "author": "Joseph Limbert",
     "license": "MIT",
-    "description": "Projects portfolio template",
+    "description": "ePortfolio",
     "overrides": {
         "vite": "^7"
     },
